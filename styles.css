@@ -10,7 +10,27 @@ html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
 }
+#header-img {
+  width: 10%;
+  height: 10%;
+}
+#birds {
+  display: flex;
+}
+.bird-box {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 
-.material-symbols-outlined {
+.bird-box img {
+  width: 192px;
+  height: 192px;
+}
+
+.material-icons {
   font-size: 45px;
 }
