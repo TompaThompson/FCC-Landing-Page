@@ -10,15 +10,36 @@ html {
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
 }
+#header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  background-color: #FFE4B5;
+}
+#header-left {
+  display: flex;
+}
 #header-img {
-  width: 10%;
-  height: 10%;
+  width: 75px;
+  height: 75px;
+}
+main {
+  max-width: 960px;
+  margin-top: 100px;
+  padding: 24px;
+}
+main p {
+  font-size: 1.4rem;
 }
 #birds {
   display: flex;
+  gap: 24px;
 }
 .bird-box {
-  width: 260px;
+  /*width: 260px;*/
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -33,4 +54,7 @@ html {
 
 .material-icons {
   font-size: 45px;
+}
+#equipment p {
+  padding-bottom: 24px;
 }
