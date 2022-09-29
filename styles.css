@@ -9,6 +9,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #556B2F;
+}
+body {
+  background-color: #FFEBCD;
 }
 h1, h2 {
   margin-bottom: 2rem;
@@ -22,6 +27,7 @@ h2 {
   margin-top: 2rem;
   font-size: 2rem;
 }
+/* --- HEADER ELEMENT --- */
 #header {
   position: fixed;
   top: 0;
@@ -47,6 +53,8 @@ h2 {
   font-size: 3rem;
   margin-left: 0.2rem;
 }
+
+/* --- NAV ELEMENT --- */
 nav#nav-bar ul {
   list-style: none;
   display: flex;
@@ -62,6 +70,8 @@ nav#nav-bar a {
   font-weight: 800;
   color: #808000;
 }
+
+/* --- MAIN ELEMENT --- */
 main {
   max-width: 960px;
   margin: 100px auto;
@@ -70,6 +80,8 @@ main {
 main p {
   font-size: 1.4rem;
 }
+
+/* --- BIRDS ELEMENT --- */
 #birds {
   display: flex;
   gap: 24px;
@@ -78,6 +90,7 @@ main p {
   /*width: 260px;*/
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 16px;
   border: 1px solid black;
   border-radius: 10px;
@@ -87,12 +100,22 @@ main p {
   width: 192px;
   height: 192px;
 }
+
+.bird-box h3 {
+  padding-top: 12px;
+  padding-bottom: 6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* --- EQUIPMENT ELEMENT --- */
 .eq-div {
   display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
 .material-icons {
   font-size: 64px;
-}
-#equipment p {
-  padding-bottom: 24px;
+  margin-right: 48px;
+  padding-left: 24px;
 }
