@@ -24,8 +24,9 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 2rem;
+  text-align: center;
 }
 /* --- HEADER ELEMENT --- */
 #header {
@@ -79,6 +80,14 @@ main {
 }
 main p {
   font-size: 1.4rem;
+}
+#intro {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#intro iframe {
+  margin: 48px auto;
 }
 
 /* --- BIRDS ELEMENT --- */
