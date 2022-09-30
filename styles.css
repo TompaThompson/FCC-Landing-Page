@@ -117,6 +117,7 @@ main p {
   font-weight: 600;
 }
 
+
 /* --- EQUIPMENT ELEMENT --- */
 .eq-div {
   display: flex;
@@ -127,4 +128,22 @@ main p {
   font-size: 64px;
   margin-right: 48px;
   padding-left: 24px;
+}
+
+
+/* --- JOIN ELEMENT --- */
+#join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#join p {
+  padding: 1rem 0.6rem 2rem 14rem;
+}
+#join form {
+  padding-left: 14rem;
+  font-size: 1.4rem;
+}
+#join form label {
+  padding-right: 1rem;
 }
