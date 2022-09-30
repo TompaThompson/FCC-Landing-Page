@@ -147,3 +147,17 @@ main p {
 #join form label {
   padding-right: 1rem;
 }
+#join input[type=email]{
+  width: 60%;
+  padding: 12px 24px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#join input[type=submit] {
+  background-color: #556B2F;
+  border: none;
+  color: #FFEBCD;
+  padding: 12px 24px;
+  margin-left: 1.2rem;
+  border-radius: 4px;
+}
