@@ -1,3 +1,5 @@
+** start of undefined **
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,7 +38,7 @@
           adipisci iure. Quisquam suscipit for sequi. Quaerat sed or cupidatat,
           so modi, so nulla iure. Consequatur ipsam. Culpa in ex so exercitation
           aute.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jg0QOYzoVz8"
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/jg0QOYzoVz8"
       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
 
@@ -138,8 +140,8 @@
           updates, upcoming events and special offers from our sponsors.</p>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
           <label for="emailaddress">Your email:</label>
-          <input type="email" id="email" name="emailaddress" placeholder="Enter your emailaddress">
-          <input type="submit" value="submit">
+          <input type="email" id="email" name="email" placeholder="Enter your emailaddress">
+          <input id="submit" type="submit" value="submit">
         </form>
       </article>
     </main>
@@ -148,3 +150,205 @@
     </footer>
   </body>
 </html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Montserrat:ital,wght@0,200;1,400&display=swap');
+
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #556B2F;
+}
+body {
+  background-color: #FFEBCD;
+}
+h1, h2 {
+  margin-bottom: 2rem;
+  font-weight: 800;
+  color: #808000;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+/* --- HEADER ELEMENT --- */
+#header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #FFE4B5;
+}
+#header-left {
+  display: flex;
+  align-items: center;
+}
+#header-img {
+  width: 75px;
+  height: 75px;
+  margin-left: 0.4rem;
+}
+#header-left #logo-text {
+  font-weight: 800;
+  font-size: 3rem;
+  margin-left: 0.2rem;
+}
+
+/* --- NAV ELEMENT --- */
+nav#nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+nav#nav-bar li {
+  font-size: 1.6rem;
+
+}
+nav#nav-bar a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #808000;
+}
+
+/* --- MAIN ELEMENT --- */
+main {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 24px;
+}
+main p {
+  font-size: 1.4rem;
+}
+#intro {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#intro iframe {
+  margin: 48px auto;
+}
+
+/* --- BIRDS ELEMENT --- */
+#birds {
+  display: flex;
+  gap: 24px;
+}
+.bird-box {
+  /*width: 260px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.bird-box img {
+  width: 192px;
+  height: 192px;
+}
+
+.bird-box h3 {
+  padding-top: 12px;
+  padding-bottom: 6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+
+/* --- EQUIPMENT ELEMENT --- */
+.eq-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.material-icons {
+  font-size: 64px;
+  margin-right: 48px;
+  padding-left: 24px;
+}
+
+
+/* --- JOIN ELEMENT --- */
+#join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#join p {
+  padding: 1rem 0.6rem 2rem 14rem;
+}
+#join form {
+  padding-left: 14rem;
+  font-size: 1.4rem;
+}
+#join form label {
+  padding-right: 1rem;
+}
+#join input[type=email]{
+  width: 60%;
+  padding: 12px 24px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#join input[type=submit] {
+  background-color: #556B2F;
+  border: none;
+  color: #FFEBCD;
+  padding: 12px 24px;
+  margin-left: 1.2rem;
+  border-radius: 4px;
+}
+
+
+/* --- FOOTER ELEMENT --- */
+footer {
+  background-color: #FFE4B5;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+footer p {
+  margin: 24px auto;
+  font-size: 1.8rem;
+}
+
+
+/* --- MEDIA QUERY --- */
+@media screen and (max-width: 480px) {
+  header {
+    height: 50px;
+  }
+  #header-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 0.4rem;
+  }
+  #birds {
+    flex-direction: column;
+  }
+  }
+
+
+** end of undefined **
+
